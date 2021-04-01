@@ -1,0 +1,18 @@
+h1 {color: #b8b5ff;}
+p {color: #7868e6;}
+
+nav a {background-color: #e4fbff;}
+nav a {color: #aeb8bd;}
+nav a:hover {background-color: #39ace6;}
+
+nav {
+    padding: 10px;
+}
+
+nav {margin-bottom: 30px;}
+
+a:link {color: #32a852;}
+
+body {
+    background-color: #edeef7;
+}
