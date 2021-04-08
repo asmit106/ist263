@@ -16,3 +16,9 @@ a:link {color: #32a852;}
 body {
     background-color: #edeef7;
 }
+
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+        display: block;}
+    span {display: none;}
+}
