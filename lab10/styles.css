@@ -2,7 +2,7 @@ h1 {color: #464fa0;}
 p {color: #2f356a;}
 
 nav a {background-color: #99e6ff;}
-nav a {color: #2f356a;}
+nav a {color: #1f2347;} 
 nav a:hover {background-color: #b3ff66;}
 
 nav {
@@ -11,7 +11,7 @@ nav {
 
 nav {margin-bottom: 30px;}
 
-a:link {color: #004d99;} 
+a:link {color: #336600;} 
 
 body {
     background-color: #edeef7;
