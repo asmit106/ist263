@@ -1,0 +1,47 @@
+h1 {color: #b8b5ff;}
+p {color: #7868e6;}
+
+nav a {background-color: #e4fbff;}
+nav a {color: #aeb8bd;}
+nav a:hover {background-color: #39ace6;}
+
+nav {
+    padding: 10px;
+}
+
+nav {margin-bottom: 30px;}
+
+a:link {color: #32a852;}
+
+body {
+    background-color: #edeef7;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+        display: block;}
+    span {display: none;}
+}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white; 
+    border: 1px solid black; 
+}
+#skip: focus {
+    position: absolute;
+    left: 10px;
+}
+
+h1 {
+    font-size: 60px
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
