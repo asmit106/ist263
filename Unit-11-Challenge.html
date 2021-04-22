@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Example</title>
+        <script>
+            fuction Leaving() {
+                // alert('you left this form element');
+                document.getElementById("message").inner HTML = "you left this fot element"; 
+            }
+        </script>
+    </head>
+
+    <body>
+
+
+        <form action="" method="POST">
+            <label for="first">First</label>
+            <input type="text" name="first" id="first" onblur="Leaving();"> 
+            <label for="last">Last</label>
+            <input type="text" name="last" id="last">
+            <input type="submit">
+        </form>
+        <div id=message></div> <!-- this is where I'm gonna bring up the message-->
+
+    </body>
+
+</html>
