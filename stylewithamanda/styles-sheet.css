@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    nav a {width: 100%;
+        display: block;}
+    span {display: none;}
+}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white; 
+    border: 1px solid black; 
+}
+#skip focus {
+    position: absolute;
+    left: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
