@@ -21,7 +21,28 @@
             .firstmakeimg, .secondmakeimg, .thirdmakeimg {
                 flex: 1;
             }
+
+            #hamicon {display: none;}
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+                #navlinks {display: none;}
+            }
         </style>
+        <script>
+            function changenav() {
+                if (document.getElementById("navlinks").style.getPropertyValue("display") == 'block') {
+                    document.getElementById("navlinks").style.display = "none";
+                }
+                else {
+                    document.getElementById("navlinks").style.display = "block";
+                }
+            }
+        </script>
     </head>
 
     <body>
@@ -29,10 +50,13 @@
         <a href="#maincontent" id="skip">Skip to Content</a>
 
         <nav>
-            <a href="home.html">home</a> <span>|</span>
-            <a href="sustainability.html">sustainability</a> <span>|</span>
-            <a href="how-to.html">how to</a> <span>|</span>
-            <a href="2021-trends.html">2021 trends</a>
+            <img src="media/hamicon.png" id="hamicon" alt="hamburger icon" width="35" onclick="changenav();"> 
+            <div id="navlinks">
+                <a href="home.html">home</a> <span>|</span>
+                <a href="sustainability.html">sustainability</a> <span>|</span>
+                <a href="how-to.html">how to</a> <span>|</span>
+                <a href="2021-trends.html">2021 trends</a>
+            </div>
         </nav>
 
         <h1><a href="home.html">style</a></h1>
