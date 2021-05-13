@@ -58,17 +58,18 @@ body {
     margin: 50px;
 }
 
-button {
+input[type=submit] {
     background-color: #f9dce1;
     text-align: center;
     padding: 10px 24px;
     border-radius: 12px;
 }
 
-button:hover {
+input:hover {
     background-color: hotpink;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
 
 
 
